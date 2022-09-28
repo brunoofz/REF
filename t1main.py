@@ -4,7 +4,7 @@ from CoolProp.CoolProp import PropsSI
 color= 'pink'
 Th = 35 + 273 #[K]
 qL = 1000 #[W] 1 J/s - 1 W
-Tl = 5 + 273 #[K] valor intermediario do armazenamento das Vacinas Pfizer
+Tl = 0 + 273 #[K] valor intermediario do armazenamento das Vacinas Pfizer
 #compressor isentropico
 fluid = 'R134a'
 h1 = PropsSI("H", "T", Tl, "Q", 1, fluid)
